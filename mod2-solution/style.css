@@ -5,31 +5,36 @@
 }
 
 #p1 {
+  float: left;
+  padding: 10px;
+  margin: 5px;
   background: yellow;
-  width: 400px;
-  height: auto;
+  width: 33%;
+  border: 3px solid black;
+  box-sizing: border-box;
 }
 
 #p2 {
+  padding: 10px;
+  margin: 5px;
   background: green;
-  width: 400px;
-  height: auto;
+  width: 33%;
+  border: 3px solid black;
+  box-sizing: border-box;
+  float: left;
 }
 
 #p3 {
+  padding: 10px;
+  margin: 5px;
   background: gray;
-  width: auto;
-  height: auto;
+  width: 30%;
+  border: 3px solid black;
+  box-sizing: border-box;
+  float: left;
 }
 
 #content {
-  margin: 2px;
-}
-
-/***********Large Devices Only**********/
-@media (max-width: 1200px) {
-  #content {
-    width: 80%;
-  }
+  
 }
 
