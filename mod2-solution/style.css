@@ -5,37 +5,40 @@
 }
 
 #p1 {
-  float: left;
-  padding: 10px;
-  margin: 5px;
-  background: yellow;
-  width: 33%;
-  border: 3px solid black;
-  box-sizing: border-box;
+  background: gray;
 }
 
 #p2 {
-  padding: 10px;
-  margin: 5px;
-  background: green;
-  width: 33%;
-  border: 3px solid black;
-  box-sizing: border-box;
-  float: left;
+  background: yellow;
 }
 
 #p3 {
-  padding: 10px;
-  margin: 5px;
-  background: gray;
-  width: 30%;
-  border: 3px solid black;
-  box-sizing: border-box;
-  float: left;
+  background: blue;
 }
 
+h3 {
+  text-align: right;
+}
+
+
+/*********Devices Larger than 992px********/
+@media (min-width: 992px) {
+  #p1, #p2, #p3 {
+    float: left;
+    box-sizing: border-box;
+    width: 31%;
+    border: 3px black solid;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+
+
+
+
 /***********Devices smaller than 767px**********/
-@media (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   #p1, #p2, #p3 {
     float: none;
     width: 100%;
@@ -46,21 +49,19 @@
 }
   
   /*********Devices 768px-991px****************/
-@media (min-width: 768px)and(max-width: 991px) {
+/*@media screen and (max-width: 991px) and (min-width: 768px) {
   #p1, #p2 {
     float: left;
     width: 100%;
   }
-}
   #p3 {
+    background: blue;
     float: none;
-    clear: both;
-    width: 100%;
   }
 }
 
 /***********Devices larger than 992px*********/
-@media (max-width: 1400px) {
+/*@media (max-width: 1400px) {
   #p1, #p2, #p3{
     float: left;
     width: 30%;
