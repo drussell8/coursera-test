@@ -4,8 +4,15 @@
   margin-left: auto;
 }
 
+p {
+  float: left;
+  position: relative;
+    bottom: 25px;
+}
+
 #p1 {
   background: gray;
+
 }
 
 #p2 {
@@ -17,7 +24,20 @@
 }
 
 h3 {
-  text-align: right;
+  width: 80px;
+  float: right;
+  text-align: center;
+  position: relative;
+    bottom: 32px;
+    left: 13px;
+  border: solid black 3px;
+}
+
+/*h3 {
+  display: inline-block;
+  border: black solid 3px;
+  position: relative;
+    bottom: 32px
 }
 
 
@@ -30,6 +50,7 @@ h3 {
     border: 3px black solid;
     padding: 10px;
     margin: 10px;
+
   }
 }
 
