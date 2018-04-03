@@ -1,7 +1,9 @@
-.row {
-  margin-bottom: 15px;
+h1 {
+  font-size: 50px;
+  color: blue;
+  background: gray;
 }
-.row > div {
-  border: 2px solid red;
-  background-color: gray;
+
+#main-title {
+  color: green;
 }
