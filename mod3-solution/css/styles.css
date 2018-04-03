@@ -1,9 +1,16 @@
-h1 {
+#title {
   font-size: 50px;
   color: blue;
   background: gray;
 }
 
-#main-title {
-  color: green;
+#title2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  width: 100px;
+  text-align: center;
+  position: relative;
 }
