@@ -5,10 +5,15 @@
   background: gray;
 }
 
-@media  (min-width: 768px) and (max-width: 1500px) {
+@media  (min-width: 768px) {
   #nav-list {
     display: none;
   }
+}
+
+#our-menu {
+  font-size: 30px;
+  margin: 20px;
 }
 
 #chicken-box {
@@ -16,11 +21,7 @@
   background: yellow;
   margin: 10px;
   padding: 10px;
-}
-
-#chicken-title {
-  text-align: center;
-  font-size: 1.5em;
+  height: 1000px
 }
 
 #beef-box {
@@ -30,11 +31,6 @@
   background: gray;
 }
 
-#beef-title {
-  text-align: center;
-  font-size: 1.5em;
-}
-
 #sushi-box {
   border: solid black 1px;
   margin: 10px;
@@ -42,10 +38,7 @@
   background: green;
 }
 
-#sushi-title {
-  text-align: center;
-  font-size: 1.5em;
-}
+
 
 
 
