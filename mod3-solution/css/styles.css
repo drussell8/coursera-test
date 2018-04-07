@@ -5,12 +5,6 @@
   background: gray;
 }
 
-@media  (min-width: 768px) {
-  #nav-list {
-    display: none;
-  }
-}
-
 #our-menu {
   font-size: 30px;
   margin: 20px;
