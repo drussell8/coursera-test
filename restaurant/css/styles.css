@@ -93,7 +93,10 @@ body {
 
  /********* Large devices only *****/
  @media (min-width: 1200px) {
-
+    .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
  }
 
  /******** Meduim devices only *****/
@@ -111,13 +114,33 @@ body {
 
  /******** Small devices only *****/
  @media (min-width: 768px) and (max-width: 991px) {
-
+    /* Home Page */
+  .container .jumbotron {
+  background: url('../images/jumbotron_768.jpg') no-repeat;
+  height: 432px;
  }
 
  /******* xsmall devices only ******/
  @media (max-width: 767px) {
-
- }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {/***Restraurant name ***/
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  .navbar-brand p {/***kosher cert****/
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {/***star-k***/
+    height: 20px;
+  }
+  #call-btn a {
+    font-size: 2em;
+  }
+}
 
  #collapsable-nav a {   /*** medium size glyph icons ***/
   font-size: 1.2em;
